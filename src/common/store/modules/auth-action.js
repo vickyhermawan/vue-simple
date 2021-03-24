@@ -17,7 +17,6 @@ export const logout = () => {
 }
 
 export const register = async (user) => {
-    console.log(user)
     const params = {
         nickname: user.nickname,
         email: user.email,

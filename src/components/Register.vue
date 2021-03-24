@@ -128,7 +128,6 @@ export default {
              this.successful = false;
           }else{
             this.dialog = true;
-            this.$router.push('/login');
           }
         }
       );
